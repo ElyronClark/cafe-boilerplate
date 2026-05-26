@@ -14,7 +14,8 @@ export default function Menu() {
                 <div className="flex justify-between mb-2">
                     <span>Double Shot</span>
                     <span>$5</span>
-                </div>            <div className="flex justify-between mb-2">
+                </div>            
+                <div className="flex justify-between mb-2">
                     <span>Flat White</span>
                     <span>$10</span>
                 </div>            
