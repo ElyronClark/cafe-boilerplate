@@ -1,19 +1,18 @@
-import Header from "./Header";
-import Footer from "./Footer";
+import Link from "next/link";
 
 
 export default function Home() {
   return (
-    <main className="max-w-2xl mx-auto p-8">
-      <Header />
-      <p className="text-lg text-gray-600">Fresh coffee and pastries, every morning.</p>
-
-      <h2 className="text-2xl font-semibold mt-8">Our Menu</h2>
-      <p className="text-gray-600">Espresso, pour-over, fresh-baked croissants.</p>
-
-      <h2 className="text-2xl font-semibold mt-8">Visit us</h2>
-      <p className="text-gray-600">123 Main Street. Open 7am-4pm daily.</p>
-      <Footer />
+    <main>
+      <section className="flex flex-col items-center text-center py-20">
+        <h1 className="text-4xl font-bold">The Daily Grind Cafe</h1>
+        <p className="text-2xl text-gray-700 mb-8">
+          Fresh coffee and pastries, every morning.
+        </p>
+        <Link href="/menu"className="bg-amber-700 text-white px-6 py-3 rounded-lg hover:bg-amber-800">
+        View Our Menu
+        </Link>
+      </section>
     </main>
   );
 }

@@ -1,7 +1,10 @@
 export default function Footer() {
     return (
-    <footer className="mt-12 text-center text-gray-500">
-        @ 2026 The Daily Grind Cafe
+    <footer className="border-t px-8 py-6 text-gray-600">
+        <p className="font-semibold text-gray-800">The Daily Grind Cafe</p>
+        <p>123 Main Street.</p>
+        <p>Open 7am-4pm daily.</p>
+        <p className="mt-2 text-sm text-gray-400">@ 2026 The Daily Grind Cafe</p>
     </footer>
     );
 }
